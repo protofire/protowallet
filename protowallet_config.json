@@ -1,0 +1,1118 @@
+{
+    "aquariusTokensURL": "https://aquarius.oceanprotocol.com/api/v1/aquarius/assets/query",
+    "aquariusTokenURL": "https://aquarius.oceanprotocol.com/api/v1/aquarius/assets/ddo/",
+    "subgraphURL": "https://subgraph.{network}.oceanprotocol.com/subgraphs/name/oceanprotocol/ocean-subgraph",
+    "subgraphPoolURL": "https://subgraph.{network}.oceanprotocol.com/subgraphs/name/oceanprotocol/ocean-subgraph",
+    "providerFileinfoURL": "https://provider.mainnet.oceanprotocol.com/api/v1/services/fileinfo",
+    "coingeckoPriceURL": "https://api.coingecko.com/api/v3/simple/price?ids={ids}&vs_currencies={currencies}",
+    "etherscanTXsURL": "{domain}?module=account&action=txlist&address={address}&startblock=0&endblock=99999999&sort=desc&apikey={key}",
+    "downloadTokenURL": "https://provider.{network}.oceanprotocol.com/api/v1/services/download",
+    "downloadTokenPayload": "?fileIndex={index}&documentId={did}&serviceId=1&serviceType=access&dataToken={token}&transferTxId={transaction}&consumerAddress={address}&signature={signature}",
+    "nonceURL": "https://provider.{network}.oceanprotocol.com/api/v1/services/nonce?userAddress={address}",
+    "multipleWalletsTopColors": ["#fac902", "#f0d05d", "#f2e557", "#e9f022", "#3bf7ee", "#43b8f7",  "#6876ed", "#a881f7", "#f582aa", "#e65a5a"],
+    "multipleWalletsBottomColors": ["#f54703", "#a68202", "#899318", "#5FB359", "#0E9AA3", "#10639E",  "#2c2fdb", "#4C389A", "#D23B5F", "#853232"],
+    "multipleWalletsColors": [
+        "#7B1173",
+        "#4C389A",
+        "#10639E",
+        "#0E9AA3",
+        "#5FB359",
+        "#899318",
+        "#ECBC12",
+        "#FF9900",
+        "#D23B5F",
+        "#5F2D2D"
+    ],
+    "supportedCurrencies": "EUR,USD",
+    "networks": {
+        "mainnet": {
+            "useRpcURL": false,
+            "enabled": true,
+            "blockTime": 15,
+            "chainId": 1,
+            "oceanTokenAddress": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
+            "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
+            "nativeToken": {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18,
+                "name": "Ether",
+                "symbol": "ETH"
+            },
+            "tokens": [
+                {
+                    "order": 1,
+                    "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                    "decimals": 18,
+                    "name": "Aave Token",
+                    "symbol": "AAVE"
+                }, {
+                    "order": 2,
+                    "address": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
+                    "decimals": 9,
+                    "name": "Ampleforth",
+                    "symbol": "AMPL"
+                }, {
+                    "order": 3,
+                    "address": "0x1985365e9f78359a9b6ad760e32412f4a445e862",
+                    "decimals": 18,
+                    "name": "Augur",
+                    "symbol": "REP"
+                }, {
+                    "order": 4,
+                    "address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+                    "decimals": 18,
+                    "name": "Basic Attention Token",
+                    "symbol": "BAT"
+                }, {
+                    "order": 5,
+                    "address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+                    "decimals": 18,
+                    "name": "Binance USD",
+                    "symbol": "BUSD"
+                }, {
+                    "order": 6,
+                    "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+                    "decimals": 18,
+                    "name": "Crypto.com Coin",
+                    "symbol": "CRO"
+                }, {
+                    "order": 7,
+                    "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "decimals": 18,
+                    "name": "DAI",
+                    "symbol": "DAI"
+                }, {
+                    "order": 8,
+                    "address": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
+                    "decimals": 18,
+                    "name": "Enjin Coin",
+                    "symbol": "ENJ"
+                }, {
+                    "order": 9,
+                    "address": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA",
+                    "decimals": 18,
+                    "name": "Gala",
+                    "symbol": "GALA"
+                }, {
+                    "order": 10,
+                    "address": "0x2b591e99afe9f32eaa6214f7b7629768c40eeb39",
+                    "decimals": 18,
+                    "name": "HEX",
+                    "symbol": "HEX"
+                }, {
+                    "order": 11,
+                    "address": "0x875773784af8135ea0ef43b5a374aad105c5d39e",
+                    "decimals": 18,
+                    "name": "Idle.finance",
+                    "symbol": "IDLE"
+                }, {
+                    "order": 12,
+                    "address": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
+                    "decimals": 18,
+                    "name": "KyberNetwork",
+                    "symbol": "KNC"
+                }, {
+                    "order": 13,
+                    "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+                    "decimals": 18,
+                    "name": "Chainlink",
+                    "symbol": "LINK"
+                }, {
+                    "order": 14,
+                    "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+                    "decimals": 18,
+                    "name": "Decentraland",
+                    "symbol": "MANA"
+                }, {
+                    "order": 15,
+                    "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+                    "decimals": 18,
+                    "name": "Maker DAO Token",
+                    "symbol": "MKR"
+                }, {
+                    "order": 16,
+                    "address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
+                    "decimals": 18,
+                    "name": "Ocean Token",
+                    "symbol": "OCEAN"
+                }, {
+                    "order": 17,
+                    "address": "0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec",
+                    "decimals": 18,
+                    "name": "Polymath",
+                    "symbol": "POLY"
+                }, {
+                    "order": 18,
+                    "address": "0x408e41876cccdc0f92210600ef50372656052a38",
+                    "decimals": 18,
+                    "name": "Republic",
+                    "symbol": "REN"
+                }, {
+                    "order": 19,
+                    "address": "0x4156d3342d5c385a87d264f90653733592000581",
+                    "decimals": 8,
+                    "name": "Salt",
+                    "symbol": "SALT"
+                }, {
+                    "order": 20,
+                    "address": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
+                    "decimals": 18,
+                    "name": "The Sandbox",
+                    "symbol": "SAND"
+                }, {
+                    "order": 21,
+                    "address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+                    "decimals": 18,
+                    "name": "Shiba Inu",
+                    "symbol": "SHIB"
+                }, {
+                    "order": 22,
+                    "address": "0x744d70fdbe2ba4cf95131626614a1763df805b9e",
+                    "decimals": 18,
+                    "name": "Status Network",
+                    "symbol": "SNT"
+                }, {
+                    "order": 23,
+                    "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                    "decimals": 18,
+                    "name": "Synthetix",
+                    "symbol": "SNX"
+                }, {
+                    "order": 24,
+                    "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+                    "decimals": 18,
+                    "name": "Synth sUSD",
+                    "symbol": "sUSD"
+                }, {
+                    "order": 25,
+                    "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+                    "decimals": 18,
+                    "name": "Sushiswap",
+                    "symbol": "SUSHI"
+                }, {
+                    "order": 26,
+                    "address": "0x0000000000085d4780b73119b644ae5ecd22b376",
+                    "decimals": 18,
+                    "name": "True USD",
+                    "symbol": "TUSD"
+                }, {
+                    "order": 27,
+                    "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+                    "decimals": 18,
+                    "name": "Uniswap",
+                    "symbol": "UNI"
+                }, {
+                    "order": 28,
+                    "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "decimals": 6,
+                    "name": "USD Coin",
+                    "symbol": "USDC"
+                }, {
+                    "order": 29,
+                    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                    "decimals": 6,
+                    "name": "Tether",
+                    "symbol": "USDT"
+                }, {
+                    "order": 30,
+                    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+                    "decimals": 18,
+                    "name": "Wrapped BNB",
+                    "symbol": "WBNB"
+                }, {
+                    "order": 31,
+                    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "decimals": 18,
+                    "name": "Wrapped ETH",
+                    "symbol": "WETH"
+                }, {
+                    "order": 32,
+                    "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                    "decimals": 8,
+                    "name": "Wrapped Bitcoin",
+                    "symbol": "WBTC"
+                }, {
+                    "order": 33,
+                    "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+                    "decimals": 18,
+                    "name": "yearn.finance",
+                    "symbol": "YFI"
+                }, {
+                    "order": 34,
+                    "address": "0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27",
+                    "decimals": 12,
+                    "name": "Zilliqa Bitcoin",
+                    "symbol": "ZIL"
+                }, {
+                    "order": 35,
+                    "address": "0xe41d2489571d322189246dafa5ebde1f4699f498",
+                    "decimals": 18,
+                    "name": "0x",
+                    "symbol": "ZRX"
+                }
+            ],
+            "defi": [
+                {
+                    "type": "uniswap",
+                    "name": "Uniswap",
+                    "logo": "DeFiUniSwapLogo",
+                    "factory": "0xc0a47dfe034b400b47bdad5fecda2621de6c4d95",
+                    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                    "weth": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "deadline": 300,
+                    "calls": {
+                        "getRates": "getAmountsOut",
+                        "swapEthToToken": "swapExactETHForTokens",
+                        "swapTokenToEth": "swapExactTokensForETH",
+                        "swapTokenToToken": "swapExactTokensForTokens"
+                    }
+                },
+                {
+                    "type": "uniswap",
+                    "name": "Sushiswap",
+                    "logo": "DeFiSushiSwapLogo",
+                    "factory": "0xc0aee478e3658e2610c5f7a4a2e1777ce9e4f2ac",
+                    "router": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+                    "weth": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "deadline": 300,
+                    "calls": {
+                        "getRates": "getAmountsOut",
+                        "swapEthToToken": "swapExactETHForTokens",
+                        "swapTokenToEth": "swapExactTokensForETH",
+                        "swapTokenToToken": "swapExactTokensForTokens"
+                    }
+                },
+                {
+                    "type": "uniswap",
+                    "name": "Fraxswap",
+                    "logo": "DeFiFraxSwapLogo",
+                    "factory": "0xB076b06F669e682609fb4a8C6646D2619717Be4b",
+                    "router": "0x1C6cA5DEe97C8C368Ca559892CCce2454c8C35C7",
+                    "weth": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "deadline": 300,
+                    "calls": {
+                        "getRates": "getAmountsOut",
+                        "swapEthToToken": "swapExactETHForTokens",
+                        "swapTokenToEth": "swapExactTokensForETH",
+                        "swapTokenToToken": "swapExactTokensForTokens"
+                    }
+                },
+                {
+                    "type": "kyberswap",
+                    "name": "KyberSwap",
+                    "logo": "DeFiKyberSwapLogo",
+                    "proxy": "0x9aab3f75489902f3a48495025729a0af77d4b11e",
+                    "ethRateAddress": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                    "calls": {
+                        "getRates": "getExpectedRate(address,address,uint256)",
+                        "swapEthToToken": "swapEtherToToken(address,uint256)",
+                        "swapTokenToEth": "swapTokenToEther(address,uint256,uint256)",
+                        "swapTokenToToken": "swapTokenToToken(address,uint256,address,uint256)"
+                    }
+                },
+                {
+                    "type": "gnosis",
+                    "name": "Gnosis Safe",
+                    "logo": "DeFiGnosisSafeLogo",
+                    "factory": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+                    "safe": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+                    "calls": {
+                    }
+                }
+            ],
+            "oceanContracts": {
+                "DTFactory": "0x57317f97E9EA49eBd19f7c9bB7c180b8cDcbDeB9",
+                "BFactory": "0xbe0083053744ECb871510C88dC0f6b77Da162706",
+                "FixedRateExchange": "0x608d05214E42722B94a54cF6114d4840FCfF84e1",
+                "Metadata": "0x1a4b70d8c9DcA47cD6D0Fb3c52BB8634CA1C0Fdf",
+                "Ocean": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48"
+            }
+        },
+        "goerli": {
+            "useRpcURL": false,
+            "enabled": true,
+            "blockTime": 15,
+            "chainId": 5,
+            "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
+            "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
+            "nativeToken": {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18,
+                "name": "Ether",
+                "symbol": "ETH"
+            },
+            "tokens": [
+                {
+                    "order": 1,
+                    "address": "0x63242B9Bd3C22f18706d5c4E627B4735973f1f07",
+                    "decimals": 18,
+                    "name": "AAVE",
+                    "symbol": "AAVE"
+                },
+                {
+                    "order": 2,
+                    "address": "0xDF1742fE5b0bFc12331D8EAec6b478DfDbD31464",
+                    "decimals": 18,
+                    "name": "DAI (AAVE)",
+                    "symbol": "DAI"
+                },
+                {
+                    "order": 3,
+                    "address": "0x07C725d58437504CA5f814AE406e70E21C5e8e9e",
+                    "decimals": 18,
+                    "name": "Chainlink (AAVE)",
+                    "symbol": "LINK"
+                },
+                {
+                    "order": 4,
+                    "address": "0xaA63E0C86b531E2eDFE9F91F6436dF20C301963D",
+                    "decimals": 2,
+                    "name": "EURS (AAVE)",
+                    "symbol": "EURS"
+                },
+                {
+                    "order": 5,
+                    "address": "0xC2C527C0CACF457746Bd31B2a698Fe89de2b6d49",
+                    "decimals": 6,
+                    "name": "Tether (AAVE)",
+                    "symbol": "USDT"
+                },
+                {
+                    "order": 6,
+                    "address": "0xA2025B15a1757311bfD68cb14eaeFCc237AF5b43",
+                    "decimals": 6,
+                    "name": "USD Coin (AAVE)",
+                    "symbol": "USDC"
+                },
+                {
+                    "order": 7,
+                    "address": "0x2e3a2fb8473316a02b8a297b982498e661e1f6f5",
+                    "decimals": 18,
+                    "name": "Wpapped ETH (AAVE)",
+                    "symbol": "WETH"
+                },
+                {
+                    "order": 8,
+                    "address": "0x8869DFd060c682675c2A8aE5B21F2cF738A0E3CE",
+                    "decimals": 8,
+                    "name": "Wpapped BTC (AAVE)",
+                    "symbol": "WBTC"
+                },
+                {
+                    "order": 9,
+                    "address": "0x3430d04E42a722c5Ae52C5Bffbf1F230C2677600",
+                    "decimals": 18,
+                    "name": "Cow Token",
+                    "symbol": "COW"
+                },
+                {
+                    "order": 10,
+                    "address": "0xdc31Ee1784292379Fbb2964b3B9C4124D8F89C60",
+                    "decimals": 18,
+                    "name": "DAI",
+                    "symbol": "DAI"
+                },
+                {
+                    "order": 11,
+                    "address": "0x6d7b172f7c6c3136d07ded83b68238eabd36f3a7",
+                    "decimals": 18,
+                    "name": "DOGE",
+                    "symbol": "DOGE"
+                },
+                {
+                    "order": 12,
+                    "address": "0x333A1b6f9939989fCb80e3f93B5e6F3629b768E6",
+                    "decimals": 9,
+                    "name": "Dragon Inu",
+                    "symbol": "DRAGO"
+                },
+                {
+                    "order": 13,
+                    "address": "0x326C977E6efc84E512bB9C30f76E30c160eD06FB",
+                    "decimals": 18,
+                    "name": "Chainlink",
+                    "symbol": "LINK"
+                },
+                {
+                    "order": 14,
+                    "address": "0x088afbcdef19677070002941d946f01a50a6235b",
+                    "decimals": 18,
+                    "name": "Luna",
+                    "symbol": "LUNA"
+                },
+                {
+                    "order": 15,
+                    "address": "0xd87ba7a50b2e7e660f678a895e4b72e7cb4ccd9c",
+                    "decimals": 6,
+                    "name": "USD Coin",
+                    "symbol": "USDC"
+                },
+                {
+                    "order": 16,
+                    "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+                    "decimals": 18,
+                    "name": "Uniswap",
+                    "symbol": "UNI"
+                },
+                {
+                    "order": 17,
+                    "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+                    "decimals": 18,
+                    "name": "Wpapped ETH",
+                    "symbol": "WETH"
+                },
+                {
+                    "order": 18,
+                    "address": "0x499d11E0b6eAC7c0593d8Fb292DCBbF815Fb29Ae",
+                    "decimals": 18,
+                    "name": "Polygon Crosschain MATIC",
+                    "symbol": "MATIC"
+                }
+            ],
+            "defi": [
+                {
+                    "type": "aave",
+                    "name": "AAVE",
+                    "logo": "DeFiAAVELogo",
+                    "aTokenName": "AToken",
+                    "lendingPool": "0x368eedf3f56ad10b9bc57eed4dac65b26bb667f6",
+                    "wethGateway": "0xd5b55d3ed89fda19124ceb5bab620328287b915d",
+                    "weth": "0x2e3a2fb8473316a02b8a297b982498e661e1f6f5",
+                    "calls": {
+                        "getReserveData": "getReserveData(address)",
+                        "depositETH": "depositETH",
+                        "withdrawETH": "withdrawETH",
+                        "depositToken": "supply",
+                        "withdrawToken": "withdraw"
+                    },
+                    "tokens": [
+                        {
+                            "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                            "address": "0x27B4692C93959048833f40702b22FE3578E77759"
+                        },
+                        {
+                            "token": "0x63242B9Bd3C22f18706d5c4E627B4735973f1f07",
+                            "address": "0xC4bf7684e627ee069e9873B70dD0a8a1241bf72c"
+                        },
+                        {
+                            "token": "0xDF1742fE5b0bFc12331D8EAec6b478DfDbD31464",
+                            "address": "0x310839bE20Fc6a8A89f33A59C7D5fC651365068f"
+                        },
+                        {
+                            "token": "0x07C725d58437504CA5f814AE406e70E21C5e8e9e",
+                            "address": "0x6A639d29454287B3cBB632Aa9f93bfB89E3fd18f"
+                        },
+                        {
+                            "token": "0xaA63E0C86b531E2eDFE9F91F6436dF20C301963D",
+                            "address": "0xc31E63CB07209DFD2c7Edb3FB385331be2a17209"
+                        },
+                        {
+                            "token": "0xC2C527C0CACF457746Bd31B2a698Fe89de2b6d49",
+                            "address": "0x73258E6fb96ecAc8a979826d503B45803a382d68"
+                        },
+                        {
+                            "token": "0xA2025B15a1757311bfD68cb14eaeFCc237AF5b43",
+                            "address": "0x1Ee669290939f8a8864497Af3BC83728715265FF"
+                        },
+                        {
+                            "token": "0x2e3a2fb8473316a02b8a297b982498e661e1f6f5",
+                            "address": "0x27B4692C93959048833f40702b22FE3578E77759"
+                        },
+                        {
+                            "token": "0x8869DFd060c682675c2A8aE5B21F2cF738A0E3CE",
+                            "address": "0xc0ac343EA11A8D05AAC3c5186850A659dD40B81B"
+                        }
+                    ]
+                },
+                {
+                    "type": "uniswap",
+                    "name": "Uniswap",
+                    "logo": "DeFiUniSwapLogo",
+                    "factory": "0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f",
+                    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                    "weth": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+                    "deadline": 300,
+                    "calls": {
+                        "getRates": "getAmountsOut",
+                        "swapEthToToken": "swapExactETHForTokens",
+                        "swapTokenToEth": "swapExactTokensForETH",
+                        "swapTokenToToken": "swapExactTokensForTokens"
+                    }
+                },
+                {
+                    "type": "gnosis",
+                    "name": "Gnosis Safe",
+                    "logo": "DeFiGnosisSafeLogo",
+                    "factory": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+                    "safe": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+                    "calls": {
+                    }
+                },
+                {
+                    "type": "bridge",
+                    "name": "Polygon Bridge",
+                    "logo": "DeFiBridgePolygonMumbaiLogo",
+                    "from": "Goerli",
+                    "to": "Mumbai",
+                    "deposit":
+                    {
+                        "rootChainManager": "0xbbd7cbfa79faee899eaf900f13c9065bf03b1a74",
+                        "depositManagerProxy": "0x7850ec290A2e2F40B82Ed962eaf30591bb5f5C96",
+                        "ethCall": "depositEtherFor",
+                        "tokenCall": "depositERC20ForUser"
+                    },
+                    "bridgeTokens":
+                    [
+                        "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                        "0x499d11E0b6eAC7c0593d8Fb292DCBbF815Fb29Ae"
+                    ]
+                }
+            ],
+            "oceanContracts": {
+                "DTFactory": "0x3fd7A00106038Fb5c802c6d63fa7147Fe429E83a",
+                "BFactory": "0x53eDF9289B0898e1652Ce009AACf8D25fA9A42F8",
+                "FixedRateExchange": "0xeD1DfC5F3a589CfC4E8B91C1fbfC18FC6699Fbde",
+                "Metadata": "0xFD8a7b6297153397B7eb4356C47dbd381d58bFF4",
+                "Ocean": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07"
+            },
+            "gnosisContracts": {
+                "GnosisSafeProxyFactory": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+                "GnosisSafe": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+            }
+        },
+        "polygon-mainnet": {
+            "useRpcURL": true,
+            "enabled": false,
+            "rpcURL": "https://polygon-rpc.com",
+            "blockTime": 1,
+            "chainId": 137,
+            "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
+            "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
+            "nativeToken": {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18,
+                "name": "MATIC",
+                "symbol": "MATIC"
+            },
+            "tokens": [
+                {
+                    "order": 1,
+                    "address": "0x282d8efCe846A88B159800bd4130ad77443Fa1A1",
+                    "decimals": 18,
+                    "name": "Ocean Token",
+                    "symbol": "OCEAN"
+                }
+            ],
+            "defi": [
+                {
+                    "type": "aave",
+                    "name": "AAVE",
+                    "logo": "DeFiAAVELogo",
+                    "aTokenName": "AToken",
+                    "lendingPool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD#code",
+                    "wethGateway": "0x1e4b7A6b903680eab0c5dAbcb8fD429cD2a9598c",
+                    "weth": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+                    "calls": {
+                        "getReserveData": "getReserveData(address)",
+                        "depositETH": "depositETH",
+                        "withdrawETH": "withdrawETH",
+                        "depositToken": "supply",
+                        "withdrawToken": "withdraw"
+                    },
+                    "tokens": [
+                        {
+                            "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                            "address": "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97"
+                        },
+                        {
+                            "token": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
+                            "address": "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375"
+                        },
+                        {
+                            "token": "0xe0b52e49357fd4daf2c15e02058dce6bc0057db4",
+                            "address": "0x8437d7c167dfb82ed4cb79cd44b7a32a1dd95c77"
+                        },
+                        {
+                            "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+                            "address": "0x8ffdf2de812095b1d19cb146e4c004587c0a0692"
+                        },
+                        {
+                            "token": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                            "address": "0x513c7e3a9c69ca3e22550ef58ac1c0088e918fff"
+                        },
+                        {
+                            "token": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+                            "address": "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE"
+                        },
+                        {
+                            "token": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
+                            "address": "0x724dc807b04555b71ed48a6896b6f41593b8c637"
+                        },
+                        {
+                            "token": "0xe111178a87a3bff0c8d18decba5798827539ae99",
+                            "address": "0x38d693ce1df5aadf7bc62595a37d667ad57922e5"
+                        },
+                        {
+                            "token": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+                            "address": "0x8eb270e296023e9d92081fdf967ddd7878724424"
+                        },
+                        {
+                            "token": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
+                            "address": "0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530"
+                        },
+                        {
+                            "token": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
+                            "address": "0x80cA0d8C38d2e2BcbaB66aA1648Bd1C7160500FE"
+                        },
+                        {
+                            "token": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
+                            "address": "0xeBe517846d0F36eCEd99C735cbF6131e1fEB775D"
+                        },
+                        {
+                            "token": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
+                            "address": "0xEA1132120ddcDDA2F119e99Fa7A27a0d036F7Ac9"
+                        },
+                        {
+                            "token": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+                            "address": "0xc45a479877e1e9dfe9fcd4056c699575a1045daa"
+                        },
+                        {
+                            "token": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+                            "address": "0x6ab707Aca953eDAeFBc4fD23bA73294241490620"
+                        },
+                        {
+                            "token": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+                            "address": "0x625E7708f30cA75bfd92586e17077590C60eb4cD"
+                        },
+                        {
+                            "token": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+                            "address": "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8"
+                        },
+                        {
+                            "token": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+                            "address": "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97"
+                        },
+                        {
+                            "token": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                            "address": "0x078f358208685046a11C85e8ad32895DED33A249"
+                        }
+                    ]
+                },
+                {
+                    "type": "uniswap",
+                    "name": "Fraxswap",
+                    "logo": "DeFiFraxSwapLogo",
+                    "factory": "0xc2544A32872A91F4A553b404C6950e89De901fdb",
+                    "router": "0x9bc2152fD37b196C0Ff3C16f5533767c9A983971",
+                    "weth": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+                    "deadline": 300,
+                    "calls": {
+                        "getRates": "getAmountsOut",
+                        "swapEthToToken": "swapExactETHForTokens",
+                        "swapTokenToEth": "swapExactTokensForETH",
+                        "swapTokenToToken": "swapExactTokensForTokens"
+                    }
+                },
+                {
+                    "type": "uniswap",
+                    "name": "Quickswap",
+                    "logo": "DeFiQuickSwapLogo",
+                    "factory": "0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32",
+                    "router": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+                    "weth": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                    "deadline": 300,
+                    "calls": {
+                        "getRates": "getAmountsOut",
+                        "swapEthToToken": "swapExactETHForTokens",
+                        "swapTokenToEth": "swapExactTokensForETH",
+                        "swapTokenToToken": "swapExactTokensForTokens"
+                    }
+                },
+                {
+                    "type": "gnosis",
+                    "name": "Gnosis Safe",
+                    "logo": "DeFiGnosisSafeLogo",
+                    "factory": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+                    "safe": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+                    "calls": {
+                    }
+                }
+            ],
+            "oceanContracts": {
+                "DTFactory": "0xF6410bf5d773C7a41ebFf972f38e7463FA242477",
+                "BFactory": "0x69B6E54Ad2b3c2801d11d8Ad56ea1d892555b776",
+                "FixedRateExchange": "0x2112Eb973af1DBf83a4f11eda82f7a7527D7Fde5",
+                "Metadata": "0x80E63f73cAc60c1662f27D2DFd2EA834acddBaa8",
+                "Ocean": "0x282d8efCe846A88B159800bd4130ad77443Fa1A1"
+            }
+        },
+        "polygon-mumbai": {
+            "useRpcURL": true,
+            "enabled": true,
+            "rpcURL": "https://rpc-mumbai.maticvigil.com",
+            "blockTime": 1,
+            "chainId": 80001,
+            "oceanTokenAddress": "",
+            "marketFeeCollector": "",
+            "nativeToken": {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18,
+                "name": "MATIC",
+                "symbol": "MATIC"
+            },
+            "tokens": [
+                {
+                    "order": 1,
+                    "address": "0xd8992Ed72C445c35Cb4A2be468568Ed1079357c8",
+                    "decimals": 18,
+                    "name": "Ocean Token",
+                    "symbol": "OCEAN"
+                },
+                {
+                    "order": 2,
+                    "address": "0x326c977e6efc84e512bb9c30f76e30c160ed06fb",
+                    "decimals": 18,
+                    "name": "ChainLink Token",
+                    "symbol": "LINK"
+                },
+                {
+                    "order": 3,
+                    "address": "0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa",
+                    "decimals": 18,
+                    "name": "Polygon WETH",
+                    "symbol": "WETH"
+                }
+            ],
+            "oceanContracts": {
+                "DTFactory": "",
+                "BFactory": "",
+                "FixedRateExchange": "",
+                "Metadata": "",
+                "Ocean": ""
+            },
+            "defi": [
+                {
+                    "type": "bridge",
+                    "name": "Goerli Bridge",
+                    "logo": "DeFiBridgePolygonMumbaiLogo",
+                    "from": "Mumbai",
+                    "to": "Goerli",
+                    "withdraw":
+                    {
+                        "burnCall": "withdraw"
+                    },
+                    "bridgeTokens": ["0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa"]
+                }
+            ]
+        },
+        "rinkeby": {
+            "useRpcURL": false,
+            "enabled": false,
+            "blockTime": 15,
+            "chainId": 4,
+            "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
+            "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
+            "nativeToken": {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18,
+                "name": "Ether",
+                "symbol": "ETH"
+            },
+            "tokens": [
+                {
+                    "order": 1,
+                    "address": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
+                    "decimals": 18,
+                    "name": "Ocean Token",
+                    "symbol": "OCEAN"
+                },
+                {
+                    "order": 2,
+                    "address": "0xd92e713d051c37ebb2561803a3b5fbabc4962431",
+                    "decimals": 6,
+                    "name": "Tether",
+                    "symbol": "USDT"
+                },
+                {
+                    "order": 3,
+                    "address": "0x01be23585060835e02b77ef475b0cc51aa1e0709",
+                    "decimals": 18,
+                    "name": "ChainLink Token",
+                    "symbol": "LINK"
+                },
+                {
+                    "order": 4,
+                    "address": "0x725d648E6ff2B8C44c96eFAEa29b305e5bb1526a",
+                    "decimals": 18,
+                    "name": "Decentraland",
+                    "symbol": "MANA"
+                }
+            ],
+            "oceanContracts": {
+                "DTFactory": "0x3fd7A00106038Fb5c802c6d63fa7147Fe429E83a",
+                "BFactory": "0x53eDF9289B0898e1652Ce009AACf8D25fA9A42F8",
+                "FixedRateExchange": "0xeD1DfC5F3a589CfC4E8B91C1fbfC18FC6699Fbde",
+                "Metadata": "0xFD8a7b6297153397B7eb4356C47dbd381d58bFF4",
+                "Ocean": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07"
+            },
+            "gnosisContracts": {
+                "GnosisSafeProxyFactory": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+                "GnosisSafe": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+            },
+            "defi": []
+        },
+        "avalanche": {
+            "useRpcURL": true,
+            "enabled": false,
+            "rpcURL": "https://api.avax.network/ext/bc/C/rpc",
+            "blockTime": 3,
+            "chainId": 43114,
+            "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
+            "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
+            "oceanContracts": {
+                "DTFactory": "0x3fd7A00106038Fb5c802c6d63fa7147Fe429E83a",
+                "BFactory": "0x53eDF9289B0898e1652Ce009AACf8D25fA9A42F8",
+                "FixedRateExchange": "0xeD1DfC5F3a589CfC4E8B91C1fbfC18FC6699Fbde",
+                "Metadata": "0xFD8a7b6297153397B7eb4356C47dbd381d58bFF4",
+                "Ocean": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07"
+            },
+            "gnosisContracts": {
+                "GnosisSafeProxyFactory": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+                "GnosisSafe": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+            },
+            "nativeToken": {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18,
+                "name": "AVAX",
+                "symbol": "AVAX"
+            },
+            "tokens": [
+                {
+                    "order": 1,
+                    "address": "0x63a72806098bd3d9520cc43356dd78afe5d386d9",
+                    "decimals": 18,
+                    "name": "AAVE",
+                    "symbol": "AAVE"
+                },
+                {
+                    "order": 2,
+                    "address": "0x152b9d0FdC40C096757F570A51E494bd4b943E50",
+                    "decimals": 8,
+                    "name": "Bitcoin BTC.b",
+                    "symbol": "BTC.b"
+                },
+                {
+                    "order": 3,
+                    "address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
+                    "decimals": 18,
+                    "name": "DAI",
+                    "symbol": "DAI"
+                },
+                {
+                    "order": 4,
+                    "address": "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
+                    "decimals": 18,
+                    "name": "Frax",
+                    "symbol": "FRAX"
+                },
+                {
+                    "order": 5,
+                    "address": "0x5947BB275c521040051D82396192181b413227A3",
+                    "decimals": 18,
+                    "name": "Chainlink",
+                    "symbol": "LINK"
+                },
+                {
+                    "order": 6,
+                    "address": "0x5c49b268c9841AFF1Cc3B0a418ff5c3442eE3F3b",
+                    "decimals": 18,
+                    "name": "MAI Stablecoin",
+                    "symbol": "MAI"
+                },
+                {
+                    "order": 7,
+                    "address": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+                    "decimals": 18,
+                    "name": "Staked AVAX",
+                    "symbol": "sAVAX"
+                },
+                {
+                    "order": 8,
+                    "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7#code",
+                    "decimals": 6,
+                    "name": "Tether USD",
+                    "symbol": "USDT"
+                },
+                {
+                    "order": 9,
+                    "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                    "decimals": 6,
+                    "name": "USD Coin",
+                    "symbol": "USDC"
+                },
+                {
+                    "order": 10,
+                    "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+                    "decimals": 18,
+                    "name": "Wrapped AVAX",
+                    "symbol": "WAVAX"
+                },
+                {
+                    "order": 11,
+                    "address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+                    "decimals": 18,
+                    "name": "Wrapped ETH",
+                    "symbol": "WETH"
+                },
+                {
+                    "order": 12,
+                    "address": "0x50b7545627a5162F82A992c33b87aDc75187B218",
+                    "decimals": 8,
+                    "name": "Wrapped BTC",
+                    "symbol": "WBTC"
+                }
+            ],
+            "defi": [
+                {
+                    "type": "aave",
+                    "name": "AAVE",
+                    "logo": "DeFiAAVELogo",
+                    "aTokenName": "AToken",
+                    "lendingPool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+                    "wethGateway": "0x1DcDA4de2Bf6c7AD9a34788D22aE6b7d55016e1f#code#code",
+                    "weth": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+                    "calls": {
+                        "getReserveData": "getReserveData(address)",
+                        "depositETH": "depositETH",
+                        "withdrawETH": "withdrawETH",
+                        "depositToken": "supply",
+                        "withdrawToken": "withdraw"
+                    },
+                    "tokens": [
+                        {
+                            "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                            "address": "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8"
+                        },
+                        {
+                            "token": "0x63a72806098bd3d9520cc43356dd78afe5d386d9",
+                            "address": "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375"
+                        },
+                        {
+                            "token": "0x152b9d0FdC40C096757F570A51E494bd4b943E50",
+                            "address": "0x8ffDf2DE812095b1D19CB146E4c004587C0A0692"
+                        },
+                        {
+                            "token": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
+                            "address": "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE"
+                        },
+                        {
+                            "token": "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
+                            "address": "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA"
+                        },
+                        {
+                            "token": "0x5947BB275c521040051D82396192181b413227A3",
+                            "address": "0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530"
+                        },
+                        {
+                            "token": "0x5c49b268c9841AFF1Cc3B0a418ff5c3442eE3F3b",
+                            "address": "0x8Eb270e296023E9D92081fdF967dDd7878724424"
+                        },
+                        {
+                            "token": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+                            "address": "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf"
+                        },
+                        {
+                            "token": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+                            "address": "0x6ab707Aca953eDAeFBc4fD23bA73294241490620"
+                        },
+                        {
+                            "token": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                            "address": "0x625E7708f30cA75bfd92586e17077590C60eb4cD#code"
+                        },
+                        {
+                            "token": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+                            "address": "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97"
+                        },
+                        {
+                            "token": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+                            "address": "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8"
+                        },
+                        {
+                            "token": "0x50b7545627a5162F82A992c33b87aDc75187B218",
+                            "address": "0x078f358208685046a11C85e8ad32895DED33A249"
+                        }
+                    ]
+                },
+                {
+                    "type": "uniswap",
+                    "name": "Fraxswap",
+                    "logo": "DeFiFraxSwapLogo",
+                    "factory": "0x5Ca135cB8527d76e932f34B5145575F9d8cbE08E",
+                    "router": "0xc2544A32872A91F4A553b404C6950e89De901fdb",
+                    "weth": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+                    "deadline": 300,
+                    "calls": {
+                        "getRates": "getAmountsOut",
+                        "swapEthToToken": "swapExactETHForTokens",
+                        "swapTokenToEth": "swapExactTokensForETH",
+                        "swapTokenToToken": "swapExactTokensForTokens"
+                    }
+                },
+                {
+                    "type": "gnosis",
+                    "name": "Gnosis Safe",
+                    "logo": "DeFiGnosisSafeLogo",
+                    "factory": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+                    "safe": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+                    "calls": {
+                    }
+                }
+            ]
+        },
+        "avalanche_fuji":{
+            "useRpcURL": true,
+            "enabled": true,
+            "rpcURL": "https://api.avax-test.network/ext/bc/C/rpc",
+            "blockTime": 3,
+            "chainId": 43114,
+            "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
+            "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
+            "oceanContracts": {
+                "DTFactory": "0x3fd7A00106038Fb5c802c6d63fa7147Fe429E83a",
+                "BFactory": "0x53eDF9289B0898e1652Ce009AACf8D25fA9A42F8",
+                "FixedRateExchange": "0xeD1DfC5F3a589CfC4E8B91C1fbfC18FC6699Fbde",
+                "Metadata": "0xFD8a7b6297153397B7eb4356C47dbd381d58bFF4",
+                "Ocean": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07"
+            },
+            "gnosisContracts": {
+                "GnosisSafeProxyFactory": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+                "GnosisSafe": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+            },
+            "nativeToken": {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18,
+                "name": "AVAX",
+                "symbol": "AVAX"
+            },
+            "tokens": [
+                {
+                    "order": 1,
+                    "address": "0xEBbc3452Cc911591e4F18f3b36727Df45d6bd1f9",
+                    "decimals": 18,
+                    "name": "DAI Stablecoin",
+                    "symbol": "DAI"
+                },
+                {
+                    "order": 2,
+                    "address": "0xd00ae08403B9bbb9124bB305C09058E32C39A48c",
+                    "decimals": 18,
+                    "name": "Wrapped AVAX",
+                    "symbol": "WAVAX"
+                }
+            ],
+            "defi": [
+
+            ]
+        }
+    }
+}
