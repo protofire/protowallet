@@ -24,6 +24,7 @@
         "#5F2D2D"
     ],
     "supportedCurrencies": "EUR,USD",
+    "capKey": "2b42b048-e64b-4be8-a728-7e931cab9772",
     "networks": {
         "mainnet": {
             "useRpcURL": false,
@@ -36,7 +37,8 @@
                 "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
                 "decimals": 18,
                 "name": "Ether",
-                "symbol": "ETH"
+                "symbol": "ETH",
+                "slug": "ethereum"
             },
             "tokens": [
                 {
@@ -339,7 +341,8 @@
                 "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
                 "decimals": 18,
                 "name": "Ether",
-                "symbol": "ETH"
+                "symbol": "ETH",
+                "slug": "ethereum"
             },
             "tokens": [
                 {
@@ -592,7 +595,8 @@
                 "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
                 "decimals": 18,
                 "name": "MATIC",
-                "symbol": "MATIC"
+                "symbol": "MATIC",
+                "slug": "polygon"
             },
             "tokens": [
                 {
@@ -758,7 +762,8 @@
                 "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
                 "decimals": 18,
                 "name": "MATIC",
-                "symbol": "MATIC"
+                "symbol": "MATIC",
+                "slug": "polygon"
             },
             "tokens": [
                 {
@@ -816,7 +821,8 @@
                 "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
                 "decimals": 18,
                 "name": "Ether",
-                "symbol": "ETH"
+                "symbol": "ETH",
+                "slug": "ethereum"
             },
             "tokens": [
                 {
@@ -884,7 +890,8 @@
                 "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
                 "decimals": 18,
                 "name": "AVAX",
-                "symbol": "AVAX"
+                "symbol": "AVAX",
+                "slug": "avalanche"
             },
             "tokens": [
                 {
@@ -1092,7 +1099,8 @@
                 "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
                 "decimals": 18,
                 "name": "AVAX",
-                "symbol": "AVAX"
+                "symbol": "AVAX",
+                "slug": "avalanche"
             },
             "tokens": [
                 {
