@@ -32,6 +32,7 @@
             "blockTime": 15,
             "chainId": 1,
             "etherscan": "https://etherscan.io",
+            "etherscanTXs" : "api.etherscan.io",
             "oceanTokenAddress": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
             "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
             "nativeToken": {
@@ -337,6 +338,7 @@
             "blockTime": 15,
             "chainId": 5,
             "etherscan": "https://goerli.etherscan.io",
+            "etherscanTXs" : "api-goerli.etherscan.io",
             "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
             "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
             "nativeToken": {
@@ -592,6 +594,7 @@
             "blockTime": 1,
             "chainId": 137,
             "etherscan": "https://polygonscan.com",
+            "etherscanTXs": "api.polygonscan.com",
             "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
             "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
             "nativeToken": {
@@ -760,6 +763,7 @@
             "blockTime": 1,
             "chainId": 80001,
             "etherscan": "https://mumbai.polygonscan.com",
+            "etherscanTXs": "api-testnet.polygonscan.com",
             "oceanTokenAddress": "",
             "marketFeeCollector": "",
             "nativeToken": {
@@ -820,6 +824,7 @@
             "blockTime": 15,
             "chainId": 4,
             "etherscan": "https://goerli.etherscan.io",
+            "etherscanTXs": "api-rinkeby.etherscan.io",
             "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
             "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
             "nativeToken": {
@@ -879,6 +884,7 @@
             "blockTime": 3,
             "chainId": 43114,
             "etherscan": "https://snowtrace.io",
+            "etherscanTXs": "api.snowtrace.io",
             "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
             "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
             "oceanContracts": {
@@ -1089,6 +1095,7 @@
             "blockTime": 3,
             "chainId": 43114,
             "etherscan": "https://testnet.snowtrace.io",
+            "etherscanTXs": "api-testnet.snowtrace.io",
             "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
             "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
             "oceanContracts": {
