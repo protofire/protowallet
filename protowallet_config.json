@@ -31,6 +31,7 @@
             "enabled": true,
             "blockTime": 15,
             "chainId": 1,
+            "etherscan": "https://etherscan.io",
             "oceanTokenAddress": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
             "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
             "nativeToken": {
@@ -335,6 +336,7 @@
             "enabled": true,
             "blockTime": 15,
             "chainId": 5,
+            "etherscan": "https://goerli.etherscan.io",
             "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
             "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
             "nativeToken": {
@@ -589,6 +591,7 @@
             "rpcURL": "https://polygon-rpc.com",
             "blockTime": 1,
             "chainId": 137,
+            "etherscan": "https://polygonscan.com",
             "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
             "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
             "nativeToken": {
@@ -756,6 +759,7 @@
             "rpcURL": "https://rpc-mumbai.maticvigil.com",
             "blockTime": 1,
             "chainId": 80001,
+            "etherscan": "https://mumbai.polygonscan.com",
             "oceanTokenAddress": "",
             "marketFeeCollector": "",
             "nativeToken": {
@@ -815,6 +819,7 @@
             "enabled": false,
             "blockTime": 15,
             "chainId": 4,
+            "etherscan": "https://goerli.etherscan.io",
             "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
             "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
             "nativeToken": {
@@ -873,6 +878,7 @@
             "rpcURL": "https://api.avax.network/ext/bc/C/rpc",
             "blockTime": 3,
             "chainId": 43114,
+            "etherscan": "https://snowtrace.io",
             "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
             "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
             "oceanContracts": {
@@ -1082,6 +1088,7 @@
             "rpcURL": "https://api.avax-test.network/ext/bc/C/rpc",
             "blockTime": 3,
             "chainId": 43114,
+            "etherscan": "https://testnet.snowtrace.io",
             "oceanTokenAddress": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
             "marketFeeCollector": "0x88b598F48a9fe3c316B9372601A40753556AECA2",
             "oceanContracts": {
