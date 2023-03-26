@@ -1,16 +1,20 @@
 {
-    "aquariusTokensURL": "https://aquarius.oceanprotocol.com/api/v1/aquarius/assets/query",
-    "aquariusTokenURL": "https://aquarius.oceanprotocol.com/api/v1/aquarius/assets/ddo/",
-    "subgraphURL": "https://subgraph.{network}.oceanprotocol.com/subgraphs/name/oceanprotocol/ocean-subgraph",
-    "subgraphPoolURL": "https://subgraph.{network}.oceanprotocol.com/subgraphs/name/oceanprotocol/ocean-subgraph",
-    "providerFileinfoURL": "https://provider.mainnet.oceanprotocol.com/api/v1/services/fileinfo",
-    "coingeckoPriceURL": "https://api.coingecko.com/api/v3/simple/price?ids={ids}&vs_currencies={currencies}",
-    "etherscanTXsURL": "{domain}?module=account&action=txlist&address={address}&startblock=0&endblock=99999999&sort=desc&apikey={key}",
-    "downloadTokenURL": "https://provider.{network}.oceanprotocol.com/api/v1/services/download",
-    "downloadTokenPayload": "?fileIndex={index}&documentId={did}&serviceId=1&serviceType=access&dataToken={token}&transferTxId={transaction}&consumerAddress={address}&signature={signature}",
-    "nonceURL": "https://provider.{network}.oceanprotocol.com/api/v1/services/nonce?userAddress={address}",
+    "keys": {
+		"infuraKey": "2895eaee80a34425a855abc151e1e366",
+		"etherscanKey": "5STUTKZC3SEN8WPKXAR7TXSQJWXPXJ433I",
+		"avascanKey": "GD99GVVPU2T5V8ENXNCT1XRDFM6S7AES9Z",
+		"cmcKey": "2b42b048-e64b-4be8-a728-7e931cab9772",
+		"nftKey": "8L3YUsM3geCvg7Tf1dC7xeEZq5K86HaqZFuIvizNzErhc1Yq8fIsvq4APLteX1J8",
+	},
+	"urls": {
+		"cmcMapUrl": "https://pro-api.coinmarketcap.com/v1/cryptocurrency/map",
+		"cmcPriceUrl": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest",
+		"cgPriceURL": "https://api.coingecko.com/api/v3/simple/price?ids={ids}&vs_currencies={currencies}",
+		"nftUrl": "https://deep-index.moralis.io/api/v2/{address}/nft?chain={chain}&format=decimal",
+	},
     "multipleWalletsTopColors": ["#fac902", "#f0d05d", "#f2e557", "#e9f022", "#3bf7ee", "#43b8f7",  "#6876ed", "#a881f7", "#f582aa", "#e65a5a"],
     "multipleWalletsBottomColors": ["#f54703", "#a68202", "#899318", "#5FB359", "#0E9AA3", "#10639E",  "#2c2fdb", "#4C389A", "#D23B5F", "#853232"],
+
     "multipleWalletsColors": [
         "#7B1173",
         "#4C389A",
@@ -23,8 +27,19 @@
         "#D23B5F",
         "#5F2D2D"
     ],
+    "aquariusTokensURL": "https://aquarius.oceanprotocol.com/api/v1/aquarius/assets/query",
+    "aquariusTokenURL": "https://aquarius.oceanprotocol.com/api/v1/aquarius/assets/ddo/",
+    "subgraphURL": "https://subgraph.{network}.oceanprotocol.com/subgraphs/name/oceanprotocol/ocean-subgraph",
+    "subgraphPoolURL": "https://subgraph.{network}.oceanprotocol.com/subgraphs/name/oceanprotocol/ocean-subgraph",
+    "providerFileinfoURL": "https://provider.mainnet.oceanprotocol.com/api/v1/services/fileinfo",
+    "coingeckoPriceURL": "https://api.coingecko.com/api/v3/simple/price?ids={ids}&vs_currencies={currencies}",
+    "etherscanTXsURL": "{domain}?module=account&action=txlist&address={address}&startblock=0&endblock=99999999&sort=desc&apikey={key}",
+    "downloadTokenURL": "https://provider.{network}.oceanprotocol.com/api/v1/services/download",
+    "downloadTokenPayload": "?fileIndex={index}&documentId={did}&serviceId=1&serviceType=access&dataToken={token}&transferTxId={transaction}&consumerAddress={address}&signature={signature}",
+    "nonceURL": "https://provider.{network}.oceanprotocol.com/api/v1/services/nonce?userAddress={address}",
     "supportedCurrencies": "EUR,USD",
     "capKey": "2b42b048-e64b-4be8-a728-7e931cab9772",
+
     "networks": {
         "mainnet": {
             "useRpcURL": false,
